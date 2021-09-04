@@ -35,6 +35,16 @@ function App() {
 export default App;
 ```
 
+_Output:_
+
+```
+// on screen
+Phil
+
+// in DOM tree
+<span>Phil</span>
+```
+
 <br>
 
 ### `children` prop
@@ -80,7 +90,7 @@ function App() {
 export default App;
 ```
 
-\_Output:
+_Output:_
 
 ```jsx
 // in DOM tree
