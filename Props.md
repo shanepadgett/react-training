@@ -18,7 +18,7 @@ function ComponentWithProps(props) {
 export default ComponentWithProps
 ```
 
-If we now render the component named `ComponentWithProps` and set the `name` prop like an HTML attribute, then we will see a `<span>` element get rendered with the content being set to the string "Phil".
+If we now render the component named `ComponentWithProps` and set the `name` prop like an HTML attribute, then we will see a `<span>` element get rendered with the content being set to the string we passed in.
 
 ```jsx
 import React from 'react'
