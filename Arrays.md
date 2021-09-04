@@ -37,6 +37,35 @@ an
 array
 ```
 
+You can also use `.map()` to manipulate the values from an array and return a new array with the new values. In this example we are using `.map()` in two places. First we are creating a new variable named `squaredNumArray` in the component and setting it to the result of a `.map()` method execution which squares all the numbers in the `numArray` variable. We then use a `.map()` method to create a series of `<li>` elements as children of the `<ul>` element and set the value of the `<li>` to the new squared number.
+
+```jsx
+import React from 'react'
+
+function MyComponent() {
+  const numArray = [2, 4, 6]
+  const squaredNumArray = numArray.map((num) => num * num)
+
+  return (
+    <ul>
+      {squaredNumArray.map((num, index) => (
+        <li key={index}>{num}</li>
+      ))}
+    </ul>
+  )
+}
+
+export default MyComponent
+```
+
+**Output**
+
+```
+* 4
+* 16
+* 36
+```
+
 <br>
 
 ## .filter()
