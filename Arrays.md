@@ -28,7 +28,7 @@ function MyComponent() {
 export default MyComponent
 ```
 
-**Output**
+_Output:_
 
 ```
 this
@@ -60,7 +60,7 @@ function MyComponent() {
 export default MyComponent
 ```
 
-**Output**
+_Output:_
 
 ```
 * 4
@@ -183,7 +183,7 @@ function MyComponent() {
 export default MyComponent
 ```
 
-**Expected result**
+_Expected result:_
 
 ```
 * 1
@@ -215,7 +215,7 @@ function MyComponent() {
 export default MyComponent
 ```
 
-**Expected result**
+_Expected result:_
 
 ```
 * 256
@@ -276,7 +276,7 @@ function MyComponent() {
 export default MyComponent
 ```
 
-**Expected result**
+_Expected result:_
 
 ```
 * dodge viper (650hp)
