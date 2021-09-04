@@ -191,6 +191,8 @@ export default MyComponent
 * 5
 ```
 
+<br>
+
 #### Greater than
 
 Replace `/*your code here*/` with an anonymous function that returns only numbers greater than 50.
@@ -220,6 +222,8 @@ export default MyComponent
 * 60
 * 101
 ```
+
+<br>
 
 #### Object filter
 
