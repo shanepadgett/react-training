@@ -8,7 +8,7 @@ The map() method creates a new array populated with the results of calling a pro
 
 ### Examples
 
-In React, we typically use the `.map()` method to render a series of elements from an array. In this example we are rendering a series of `<span>` elements with the values from the `wordArray` variable.
+A common use case for the `.map()` method in React is to render a series of html elements from an array. In this example we are rendering a series of `<span>` elements with the values from the `wordArray` variable.
 
 ```jsx
 import React from 'react'
