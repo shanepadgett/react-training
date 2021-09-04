@@ -17,7 +17,7 @@ function MyComponent() {
   return (
     <>
       {wordArray.map((word, index) => (
-        <span key={index}>{word}</span></br>
+        <span key={index}>{word}</span><br>
       ))}
     </>
   )
@@ -34,6 +34,8 @@ is
 an
 array
 ```
+
+<br>
 
 ## .filter()
 
