@@ -4,7 +4,7 @@ Array methods are a fundamental part of everyday life as a React developer. Unde
 
 ## .filter()
 
-The `filter()` method creates a new array with all elements that pass the test implemented by the provided function. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" target="_blank">MDN</a>
+The `filter()` method creates a new array with all elements that pass the test implemented by the provided function. [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 ### Examples
 
