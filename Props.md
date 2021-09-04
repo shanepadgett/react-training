@@ -28,7 +28,7 @@ function App() {
   return <ComponentWithProps name="Phil" />
 }
 
-export default ComponentWithProps
+export default App
 ```
 
 _Output:_
