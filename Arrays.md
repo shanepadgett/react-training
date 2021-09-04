@@ -37,6 +37,8 @@ an
 array
 ```
 
+<br>
+
 You can also use `.map()` to manipulate the values from an array and return a new array with the new values. In this example we are using `.map()` in two places. First we are creating a new variable named `squaredNumArray` in the component and setting it to the result of a `.map()` method execution which squares all the numbers in the `numArray` variable. We then use a `.map()` method to create a series of `<li>` elements as children of the `<ul>` element and set the value of the `<li>` to the new squared number.
 
 ```jsx
@@ -95,6 +97,8 @@ function MyComponent() {
 export default MyComponent
 ```
 
+<br>
+
 You can also chain array methods together. In this example we "inline" the filter function and run `.map()` on the result to render the even numbers to `<li>` elements.
 
 ```jsx
@@ -116,6 +120,8 @@ function MyComponent() {
 
 export default MyComponent
 ```
+
+<br>
 
 You can also filter on object properties. In this example we filter the array of dog objects to return only dogs with the `breed` property set to 'hound'.
 
