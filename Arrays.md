@@ -2,6 +2,39 @@
 
 Array methods are a fundamental part of everyday life as a React developer. Understanding these five key methods will be necessary if you want to become a successful developer.
 
+## .map()
+
+The Map object holds key-value pairs and remembers the original insertion order of the keys. Any value (both objects and primitive values) may be used as either a key or a value. [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+
+### Examples
+
+```jsx
+import React from 'react'
+
+function MyComponent() {
+  const wordArray = ["this", "is", "an", "array"]
+
+  return (
+    <>
+      {wordArray.map((word, index) => (
+        <span key={index}>{word}</span></br>
+      ))}
+    </>
+  )
+}
+
+export default MyComponent
+```
+
+**Output**
+
+```
+this
+is
+an
+array
+```
+
 ## .filter()
 
 The `filter()` method creates a new array with all elements that pass the test implemented by the provided function. [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
