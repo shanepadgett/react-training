@@ -4,7 +4,7 @@ Array methods are a fundamental part of everyday life as a React developer. Unde
 
 ## .map()
 
-The Map object holds key-value pairs and remembers the original insertion order of the keys. Any value (both objects and primitive values) may be used as either a key or a value. [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+The map() method creates a new array populated with the results of calling a provided function on every element in the calling array. [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 ### Examples
 
