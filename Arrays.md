@@ -121,7 +121,7 @@ export default MyComponent
 
 #### Greater than
 
-Replace `/*your code here*/` with an anonymous function that returns only number greater than 50.
+Replace `/*your code here*/` with an anonymous function that returns only numbers greater than 50.
 
 ```jsx
 import React from 'react'
