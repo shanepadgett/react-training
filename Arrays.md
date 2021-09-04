@@ -110,3 +110,99 @@ function MyComponent() {
 
 export default MyComponent
 ```
+
+**Expected result**
+
+```
+* 1
+* 3
+* 5
+```
+
+#### Greater than
+
+Replace `/*your code here*/` with an anonymous function that returns only number greater than 50.
+
+```jsx
+import React from 'react'
+
+function MyComponent() {
+  const numArray = [256, 24, 32, 4, 35, 60, 101, 2]
+
+  return (
+    <ul>
+      {numArray.filter(/*your code here*/).map((num, index) => (
+        <li key={index}>{num}</li>
+      ))}
+    </ul>
+  )
+}
+
+export default MyComponent
+```
+
+**Expected result**
+
+```
+* 256
+* 60
+* 101
+```
+
+#### Object filter
+
+Replace `/*your code here*/` with an anonymous function that returns only vehicle objects with a `make` of "dodge" AND `horsepower` greater than 350.  
+**Hint:** _Refer to the [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND) documentation for the logical AND operator._
+
+```jsx
+import React from 'react'
+
+function MyComponent() {
+  const vehicleArray = [
+    {
+      make: 'dodge',
+      model: 'viper',
+      horsepower: 650,
+    },
+    {
+      make: 'bmw',
+      model: 'm3',
+      horsepower: 440,
+    },
+    {
+      make: 'dodge',
+      model: 'charger',
+      horsepower: 325,
+    },
+    {
+      make: 'ford',
+      model: 'explorer',
+      horsepower: 210,
+    },
+    {
+      make: 'dodge',
+      model: 'ram',
+      horsepower: 390,
+    },
+  ]
+
+  return (
+    <ul>
+      {vehicleArray.filter(/*your code here*/).map((vehicle, index) => (
+        <li
+          key={index}
+        >{`${vehicle.make} ${vehicle.model} (${vehicle.horsepower}hp)`}</li>
+      ))}
+    </ul>
+  )
+}
+
+export default MyComponent
+```
+
+**Expected result**
+
+```
+* dodge viper (650hp)
+* dodge ram (390hp)
+```
