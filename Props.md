@@ -4,7 +4,7 @@ Props are arguments passed into React components. Props are passed to components
 
 ## Examples
 
-### Name prop
+### `name` prop
 
 Here we are defining a component named `ComponentWithProps` and adding the `props` parameter in the parenthesis `()`. The `props` parameter allows you to access any data that was passed into to the component via HTML style attributes and in this example we are accessing the `name` property on the `props` parameter object.
 
