@@ -8,7 +8,7 @@ The `filter()` method creates a new array with all elements that pass the test i
 
 ### Examples
 
-You can create a new variable and assign the result of a filter to it. In this example, after the filter, we are mapping the even number to `<li>` elements.
+You can create a new variable and assign the result of a filter to it. In this example, after the filter, we are mapping the even numbers to `<li>` elements.
 
 ```jsx
 import React from 'react'
