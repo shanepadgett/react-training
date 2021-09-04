@@ -120,3 +120,21 @@ _Output:_
 ```
 
 ## Exercises
+
+Create a component named `CustomPropsAndChildren`. The component should accept three custom props: `itemName`, `itemDescription`, `price`. The component should render three `<div>` elements inside a fragment to display the custom prop data. Also render the `children` prop inside a fourth `div`. Render the `CustomPropsAndChildren` component in the `App` component and pass in the custom props as well as a child `div` with the following text in it: I am a child
+
+_Example Desired Output:_
+
+```
+// screen
+Item name: cookie
+Item description: a yummy snack
+Price: $2.58
+I am a child
+
+// DOM
+<div>Item name: cookie</div>
+<div>Item description: a yummy snack</div>
+<div>Price: $2.58</div>
+<div>I am a child</div>
+```
