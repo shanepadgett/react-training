@@ -1,5 +1,5 @@
 {
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "SimonSiefke.prettier-vscode",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "cSpell.words": ["Nums"]
 }
